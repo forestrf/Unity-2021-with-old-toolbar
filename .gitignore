@@ -1,0 +1,8 @@
+.vsconfig
+Unity project/Library/
+*.csproj
+/Unity project/Temp/
+*.sln
+/Unity project/UserSettings/
+/Unity project/Logs/
+/Unity project/Packages/packages-lock.json
