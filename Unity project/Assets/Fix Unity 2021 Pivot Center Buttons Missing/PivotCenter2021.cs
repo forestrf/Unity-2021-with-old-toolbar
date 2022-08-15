@@ -26,21 +26,6 @@ public class SceneSwitchLeftButton {
 		DoSnapButtons(EditorToolGUIGlobal.GetToolbarEntryRect(pos));
 		//int num = Mathf.RoundToInt((base.position.width - 140f) / 2f);
 		//pos = new Rect(num, 0f, 240f, 0f);
-
-		/*
-		EditorToolGUIGlobal.DoBuiltinToolbar(new Rect(0, 0, 400, 40));
-		DoToolSettings(new Rect(0, 0, 400, 40));
-		*/
-		GUILayout.FlexibleSpace();
-		if (GUILayout.Button(new GUIContent("1", "Start Scene 1")/*, ToolbarStyles.commandButtonStyle*/)) {
-			//SceneHelper.StartScene("Assets/ToolbarExtender/Example/Scenes/Scene1.unity");
-		}
-		/*
-
-		if (GUILayout.Button(new GUIContent("2", "Start Scene 2"), ToolbarStyles.commandButtonStyle)) {
-			SceneHelper.StartScene("Assets/ToolbarExtender/Example/Scenes/Scene2.unity");
-		}
-		*/
 	}
 
 	static void ReserveWidthRight(float width, ref Rect pos) {
